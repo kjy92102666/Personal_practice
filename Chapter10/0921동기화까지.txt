@@ -1,0 +1,6 @@
+SynchronizedTest2.java : getTicket()메소드를 동기화시켰기에, 
+ 정확히 한 스레드만 해당 메소드의 작업을 수행한다.
+
+SynchronizedTest3.java : DressingRoomThread 객체에 동기화 처리를 하여 하나의 스레드에서
+ DressingRoomThread 클래스에 정의되어 있는 작업을 수행할 때 다른 스레드는
+ 절대 DressingRoomThread 의 작업을 수행 할 수 없다.
